@@ -3,12 +3,6 @@ _base_ = [
     "../_base_/schedules/schedule_1x.py",
     "../_base_/default_runtime.py"
 ]
-# CLASSES CHOSEN
-CLASSES = ('person', 'bicycle', 'motorcycle', 'fire hydrant',
-           'bench', 'cat', 'dog',
-           'backpack', 'umbrella', 'frisbee',
-           'kite', 'skateboard', 'chair',
-           'potted plant', 'sink')
 # model settings
 model = dict(
     type='FasterRCNN',
